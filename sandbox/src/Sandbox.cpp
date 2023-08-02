@@ -9,12 +9,8 @@ public:
     ~Sandbox() {
     }
 
-
 };
 
-int main(){
-    Sandbox* sb = new Sandbox();
-    sb->run();
-    delete sb;
-    return 0;
+LMC::Application* LMC::CreateApplication(){
+    return new Sandbox();
 }

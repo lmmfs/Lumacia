@@ -10,7 +10,7 @@ namespace LMC {
     }
 
     void Application::run(){
-        std::cout << "TESTING APP";
+        std::cout << "TESTING APP ENTRY POINT";
         //while(true);
     }
 }

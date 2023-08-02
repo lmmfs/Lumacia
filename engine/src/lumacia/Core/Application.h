@@ -13,4 +13,6 @@ namespace LMC {
         void run();
     };
 
+    Application* CreateApplication();
+
 }
