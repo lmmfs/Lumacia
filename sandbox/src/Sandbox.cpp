@@ -1,4 +1,4 @@
-#include <lumacia/Lumancia.h>
+#include <Lumancia.h>
 
 class Sandbox : public LMC::Application {
 
