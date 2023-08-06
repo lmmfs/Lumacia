@@ -9,7 +9,7 @@ mkdir -p "../$BIN_DIR"
 
 # Build the sandbox
 echo "Building the sandbox..."
-defines="-D_DEBUG -DKIMPORT"
+defines="-D_DEBUG -DLMC_IMPORT"
 compilerFlags=" -Wall"
 linkerFlags=" -L../$BIN_DIR -lengine -Wl,-rpath,."
 includeFlags="-I../"$ENGINE_DIR"/src"
